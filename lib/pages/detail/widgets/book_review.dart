@@ -1,3 +1,4 @@
+import 'package:cuoiky_readbooks/constants/colors.dart';
 import 'package:cuoiky_readbooks/models/book.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +32,25 @@ class BookReview extends StatelessWidget {
             style: const TextStyle(
               color: Colors.grey,
             ),
-          )
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+          Text.rich(TextSpan(children: [
+            TextSpan(
+                text: book.review,
+                style: const TextStyle(
+                  color: kFont,
+                  fontSize: 16,
+                  height: 1.8,
+                )),
+            const TextSpan(
+                text: 'Xem Thêm',
+                style: TextStyle(
+                  color: kFont,
+                  fontSize: 16,
+                ))
+          ]))
         ],
       ),
     );
