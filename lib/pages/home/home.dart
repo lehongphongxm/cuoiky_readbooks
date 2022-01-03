@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       title: const Text(
-        'All Books',
+        'Tất cả sách',
         style: TextStyle(
           color: kFont,
           fontSize: 18,

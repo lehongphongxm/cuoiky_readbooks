@@ -28,7 +28,8 @@ class BookStaggeredGridView extends StatelessWidget {
               itemCount: bookList.length,
               itemBuilder: (_, index) => BookItem(bookList[index]),
               staggeredTileBuilder: (_) => const StaggeredTile.fit(2)),
-          Container()
+          // Container(),
+          Text('Đang được phát triển thêm LHP'),
         ],
       ),
     );

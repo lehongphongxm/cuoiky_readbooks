@@ -40,7 +40,7 @@ class BookDetail extends StatelessWidget {
                   TextSpan(
                     children: [
                       const TextSpan(
-                        text: 'Xuất bản bởi ',
+                        text: 'Được viết bởi ',
                         style: TextStyle(color: Colors.grey),
                       ),
                       TextSpan(
