@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
     final bottoms = [
       Icons.home_outlined,
       Icons.analytics_outlined,
-      Icons.keyboard_voice_outlined,
+      Icons.add_a_photo,
       Icons.bookmark_border_outlined,
       Icons.person_outline,
     ];

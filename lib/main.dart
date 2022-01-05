@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         statusBarColor: Colors.transparent,
       ),
     );
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Read Book',

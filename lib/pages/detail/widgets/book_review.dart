@@ -57,20 +57,6 @@ class BookReview extends StatelessWidget {
   }
 
   Widget _buildStar() {
-    // for(int i = 0; i<=book.score; i++){
-    //   final List<Color> color = [
-    //   Colors.amber,
-    //   ];
-    //   return Row(
-    //   children: color
-    //       .map((e) => Icon(
-    //             Icons.star,
-    //             size: 25,
-    //             color: e,
-    //           ))
-    //       .toList(),
-    // );
-    // }
     final List<Color> color = [
       Colors.amber,
       Colors.amber,

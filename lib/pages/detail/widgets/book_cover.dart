@@ -67,7 +67,7 @@ class BookCover extends StatelessWidget {
                     size: 25,
                   ),
                   Text(
-                    'Audio Book',
+                    'Nghe đọc',
                     style: TextStyle(
                       color: Colors.white,
                     ),
